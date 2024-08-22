@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Encriptador</h1>
+            <img src="./assets/img/bELLAROBBA2_5X5-removebg-preview (1).png" alt="">
+        </header>
+        <main>
+            <textarea id="inputTexto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+               
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+                <button id="copy-button">Copiar</button>
+            </div>
+            <div class="output">
+                <img src="./assets/img/bELLAROBBA2_5X5-removebg-preview.png" alt="">
+                
+                <span id="validationMessage" style="color: red; display: none;">Solo se permiten letras minúsculas sin acentos ni caracteres especiales.</span>
+                
+                <p id="outputTexto">Ningún mensaje fue encontrado</p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+     <!-- Pie de página -->
+     <footer class="footer">
+        <p> &reg;Miriam Pereira 2024 </p>
+    </footer>
+</body>
+</html>
